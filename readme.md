@@ -1,5 +1,6 @@
 # <p style="display: flex; align-items: center; gap: 0.5em;"><img src="cat.svg" alt="CAT Logo" height="24"/>CAT: Causal Attention Tuning For Injecting Fine-grained Causal Knowledge into Large Language Models（EMNLP 2025）</p>
 
+[![arXiv](https://img.shields.io/badge/arxiv-2509.01535-b31b1b)](https://arxiv.org/abs/2509.01535)&nbsp;
 ## Description
 
 Large Language Models (LLMs) have achieved impressive results in many domains. However, a critical question remains: **Can LLMs effectively utilize causal knowledge for prediction and generation?** Through empirical studies, we find that LLMs trained on large-scale data often capture spurious correlations rather than true causal relationships. This can lead to suboptimal performance, especially in out-of-distribution (OOD) scenarios.
