@@ -120,3 +120,15 @@ The CAT method consists of two major steps:
 ## Conclusion
 
 CAT provides a novel solution to enhance LLMs by incorporating causal knowledge. Our experiments show that by focusing on causal factors, models become more robust and reliable, particularly in real-world scenarios where spurious correlations can undermine generalization.
+
+
+## Citation
+If our work assists your research, feel free to cite us using:
+
+
+      @article{han2025cat,
+      title={CAT: Causal Attention Tuning For Injecting Fine-grained Causal Knowledge into Large Language Models},
+      author={Han, Kairong and Zhao, Wenshuo and Zhao, Ziyu and Ye, JunJian and Pan, Lujia and Kuang, Kun},
+      journal={arXiv preprint arXiv:2509.01535},
+      year={2025}
+      }
