@@ -131,4 +131,3 @@ If our work assists your research, feel free to cite us using:
       author={Han, Kairong and Zhao, Wenshuo and Zhao, Ziyu and Ye, JunJian and Pan, Lujia and Kuang, Kun},
       journal={arXiv preprint arXiv:2509.01535},
       year={2025}
-      }

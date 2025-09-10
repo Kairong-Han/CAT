@@ -28,4 +28,3 @@ def save_to_jsonl(data, filename):
         for item in data:
             f.write(json.dumps(item) + '\n')
 
-save_to_jsonl(new_data,'svamp_train_plus_add.jsonl')

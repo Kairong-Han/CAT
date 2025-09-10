@@ -203,4 +203,3 @@ def is_lower_triangular(matrix):
         for j in range(i + 1, cols):
             if matrix[i, j] != 0:
                 return False
-    return True

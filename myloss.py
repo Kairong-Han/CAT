@@ -146,4 +146,3 @@ def average_attention(attentions):
     final_avg_attention = avg_attention_all_layers.mean(dim=0)  # [batch_size, strlen, strlen]
     return final_avg_attention
 
-# new_attention = average_attention(outputs.attentions)

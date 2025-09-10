@@ -147,4 +147,3 @@ wheel==0.45.1
 xformers==0.0.29.post2
 xgrammar==0.1.16
 xxhash==3.5.0
-yarl==1.18.3

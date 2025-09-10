@@ -17,4 +17,3 @@ create = client.batches.create(
         "description": "Sentiment classification"
     }
 )
-print(create)
