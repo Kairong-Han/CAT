@@ -54,3 +54,4 @@ save_to_jsonl(val_set, os.path.join(directory, "val_set.jsonl"))
 
 print(f"New training set size: {len(new_train_set)}")
 print(f"Validation set size: {len(val_set)}")
+

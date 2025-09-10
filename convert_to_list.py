@@ -28,3 +28,4 @@ def save_to_jsonl(data, filename):
         for item in data:
             f.write(json.dumps(item) + '\n')
 
+
