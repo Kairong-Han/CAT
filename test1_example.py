@@ -115,7 +115,7 @@ def my_general_test(model, tokenizer, test_dataset,max_length,batch_size=3,check
     model.train()
     return accuracy,0
 
-
+ 
 model_name = model_path_dict[args.origin_model]
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
