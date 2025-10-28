@@ -37,6 +37,7 @@ data_process/
 ├── split_val.py      # Script to split data into training and validation
 ├── spurious_token_game_3.py # Generates STG dataset
 └── test1_example.py  # Example script
+└── train_general.py #Example script
 ```
 
 ---
@@ -111,7 +112,7 @@ The CAT method consists of two major steps:
 
 ## Key Contributions
 
-* **STG Benchmark**: Evaluates whether LLMs can capture causal knowledge.
+* **STG Benchmark**: Evaluates whether LLMs can capture causal knowledge. 
 * **CAT Framework**: Introduces fine-grained causal knowledge into LLMs using the Re-Attention mechanism.
 * **Enhanced Generalization**: Our approach shows significant improvements in IID and OOD scenarios, ensuring robust performance in diverse tasks.
 
@@ -120,6 +121,8 @@ The CAT method consists of two major steps:
 ## Conclusion
 
 CAT provides a novel solution to enhance LLMs by incorporating causal knowledge. Our experiments show that by focusing on causal factors, models become more robust and reliable, particularly in real-world scenarios where spurious correlations can undermine generalization.
+
+STG datasets can be found and easily used in https://huggingface.co/datasets/Kairong-Han/Spurious-Token-Game
 
 
 ## Citation
@@ -131,3 +134,4 @@ If our work assists your research, feel free to cite us using:
       author={Han, Kairong and Zhao, Wenshuo and Zhao, Ziyu and Ye, JunJian and Pan, Lujia and Kuang, Kun},
       journal={arXiv preprint arXiv:2509.01535},
       year={2025}
+      }
