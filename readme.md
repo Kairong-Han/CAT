@@ -128,10 +128,26 @@ STG datasets can be found and easily used in https://huggingface.co/datasets/Kai
 ## Citation
 If our work assists your research, feel free to cite us using:
 
-
-      @article{han2025cat,
-      title={CAT: Causal Attention Tuning For Injecting Fine-grained Causal Knowledge into Large Language Models},
-      author={Han, Kairong and Zhao, Wenshuo and Zhao, Ziyu and Ye, JunJian and Pan, Lujia and Kuang, Kun},
-      journal={arXiv preprint arXiv:2509.01535},
-      year={2025}
+      @inproceedings{han-etal-2025-cat,
+         title = "{CAT}: Causal Attention Tuning For Injecting Fine-grained Causal Knowledge into Large Language Models",
+         author = "Han, Kairong  and
+            Zhao, Wenshuo  and
+            Zhao, Ziyu  and
+            Jian, Ye Jun  and
+            Pan, Lujia  and
+            Kuang, Kun",
+         editor = "Christodoulopoulos, Christos  and
+            Chakraborty, Tanmoy  and
+            Rose, Carolyn  and
+            Peng, Violet",
+         booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+         month = nov,
+         year = "2025",
+         address = "Suzhou, China",
+         publisher = "Association for Computational Linguistics",
+         url = "https://aclanthology.org/2025.emnlp-main.502/",
+         pages = "9915--9932",
+         ISBN = "979-8-89176-332-6",
+         abstract = "Large Language Models (LLMs) have achieved remarkable success across various domains. However, a fundamental question remains: Can LLMs effectively utilize causal knowledge for prediction and generation? Through empirical studies, we find that LLMs trained directly on large-scale data often capture spurious correlations rather than true causal relationships, leading to suboptimal performance, especially in out-of-distribution (OOD) scenarios. To address this challenge, we propose Causal Attention Tuning (CAT), a novel approach that injects fine-grained causal knowledge into the attention mechanism. We propose an automated pipeline that leverages human priors to automatically generate token-level causal signals and introduce the Re-Attention mechanism to guide training, helping the model focus on causal structures while mitigating noise and biases in attention scores. Experimental results on our proposed Spurious Token Game (STG) benchmark and multiple downstream tasks demonstrate that our approach effectively leverages causal knowledge for prediction and remains robust in OOD scenarios. The CAT achieves an average improvement of 5.76{\%} on the STG dataset and 1.56{\%} on downstream tasks. Notably, the OOD performance of the Llama-3.1-8B model on STG{\_}M increased from 64.5{\%} to 90.5{\%}, and Qwen{'}s OOD performance on the STG{\_}H dataset improved from 25.4{\%} to 55.9{\%}. Implementation details can be found at https://github.com/Kairong-Han/CAT."
       }
+
